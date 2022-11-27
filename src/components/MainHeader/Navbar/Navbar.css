@@ -1,0 +1,19 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.nav-link {
+text-decoration: none;
+color: white;
+font-size: 19px;    
+}
+@media screen and (max-width: 545px) {
+   
+    li {
+        display: inline-block;
+        margin: 0px 5px;
+        margin: 0px;
+       
+    }
+}

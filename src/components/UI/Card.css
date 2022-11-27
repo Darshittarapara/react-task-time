@@ -1,0 +1,20 @@
+.card {
+  transform: translate(100% ,30%);
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 7px 10px;
+    height: auto;
+}
+.dashboard {
+    transform: translate(0% ,30%);
+    width: 90vw;
+    padding: 7px 10px;
+
+}
+
+@media screen and (max-width : 545px) {
+  .card {
+    transform: translate(20%, 60%);
+    padding: 0px;
+  }
+}
